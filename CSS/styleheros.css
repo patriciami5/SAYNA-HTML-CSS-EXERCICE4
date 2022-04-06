@@ -1,0 +1,153 @@
+:root {
+    --my_primary_color: #114c92;
+    --my_secondary_color: #b11313;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: var(--my_primary_color);
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/*ajout font far from homecoming*/
+
+@font-face {
+    font-family: 'Far From Homecoming';
+    src: url('../fonts/FarFromHomecomingRegular.eot');
+    src: url('../fonts/FarFromHomecomingRegular.eot?#iefix') format('embedded-opentype'), url('../fonts/FarFromHomecomingRegular.woff2') format('woff2'), url('../fonts/FarFromHomecomingRegular.woff') format('woff'), url('../fonts/FarFromHomecomingRegular.ttf') format('truetype'), url('../fonts/FarFromHomecomingRegular.svg#FarFromHomecomingRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+header {
+    background-color: var(--my_primary_color);
+    font-family: 'Montserrat', sans-serif;
+}
+
+#main_heros {
+    background-image: url(../Illustration/img19.png);
+    height: 647px;
+    background-size: cover;
+    background-position: center;
+    background-color: var(--my_primary_color);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.title {
+    padding-top: 15%;
+    font-family: 'Far From Homecoming';
+    font-size: 500%;
+}
+.soustitre{
+    padding-bottom: 25%;
+}
+.valeur{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.smaller_title{
+    font-family: 'Far From Homecoming';
+    text-align: left;
+}
+.parker{
+    text-align: justify;
+    font-size: smaller;
+    color: white;
+}
+#main_fondation {
+    background-image: url(../Illustration/img20.png);
+    height: 643px;
+    background-size: cover;
+    background-position: center;
+    background-color: var(--my_primary_color);
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 25%;
+}
+#main_fondation .title{
+    padding-top: 10%;
+    font-size: 200%;
+}
+.videocontainer{
+    width:  150%;
+    height: 150%;
+
+}
+#strength{
+    background-color: var(--my_primary_color);
+}
+
+.image1 {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+
+}
+.image2 {
+  position: relative;
+  top: -70px;
+ left: 175px;
+
+}
+.ami{
+ margin-top: 10%;
+}
+.avengers{
+    background-color: var(--my_secondary_color);
+    background-image: url(../Illustration/img32.png);
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: 500px;
+    height: 1093px;
+}
+.avengers2{
+  display: flex;
+  height: 100%;
+}
+.the_avengers{
+    height: max-height;
+}
+#spidey{
+    background-image: url(../Illustration/img33.png);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+
+
+}
+.transparent{
+    background-color: var(--my_primary_color);
+    position: relative;
+    text-align: right;
+}
+footer {
+    background-color: black;
+    font-size: smaller;
+    margin-bottom: 0px;
+}
+
+footer nav {
+    justify-content: space-around;
+    margin: auto;
+}
+.select {
+    background-color: var(--my_primary_color);
+    border-radius: 40%;
+    width: 15%;
+    border-color: var(--my_primary_color);
+    color: white;
+    -webkit-border-radius: 25%;
+    -moz-border-radius: 25%;
+    -ms-border-radius: 25%;
+    -o-border-radius: 25%;
+}
+
+.icon {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
